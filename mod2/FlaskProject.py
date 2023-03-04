@@ -38,10 +38,14 @@ def addNumber(date, number):
 
 @app.route('/calculate/<int:year>')
 def calculateYear(year):
+    try: salary[year]
+    except: return 'За данный год не было покупок'
     return str(sum(salary[year].values()))
 
 @app.route('/calculate/<int:year>/<int:month>')
 def calculateMounth(year, month):
+    try: salary[year][month]
+    except: return 'За данный месяц не было покупок'
     return str(salary[year][month])
 
 
