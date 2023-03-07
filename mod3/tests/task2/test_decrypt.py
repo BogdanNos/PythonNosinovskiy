@@ -1,5 +1,5 @@
 import unittest
-from decrypt import decrypt
+from task2.decrypt import decrypt
 OutputOne = ['абра-кадабра.', 'абраа..-кадабра', 'абраа..-.кадабра', 'абра--..кадабра', 'абрау...-кадабра']
 OutputEmpty = ['абра........', '.', '1.......................']
 

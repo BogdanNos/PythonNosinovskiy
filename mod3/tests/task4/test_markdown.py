@@ -1,5 +1,6 @@
 import unittest
-import markdown
+from task4 import markdown
+
 
 class TestSalary(unittest.TestCase):
     def setUp(self):

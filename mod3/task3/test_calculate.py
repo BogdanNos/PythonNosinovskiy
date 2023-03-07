@@ -1,5 +1,6 @@
 import unittest
-import calculate
+from tests.task3 import calculate
+
 
 class TestSalary(unittest.TestCase):
     def setUp(self):
