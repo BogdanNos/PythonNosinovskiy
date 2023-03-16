@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/bogdan/Рабочий стол/PythonNosinovskiy/mod5/task4/task4.py", line 31, in <module>
+    raise Exception('Hello stderr.txt')
+Exception: Hello stderr.txt
