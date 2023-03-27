@@ -1,0 +1,28 @@
+18:28:12: INFO - Started
+18:28:12: INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+18:28:12: INFO - [33mPress CTRL+C to quit[0m
+18:28:12: INFO -  * Restarting with stat
+18:28:12: INFO - Started
+18:28:12: WARNING -  * Debugger is active!
+18:28:12: INFO -  * Debugger PIN: 119-372-571
+18:28:15: ERROR - We are unable to divide by zero!
+Traceback (most recent call last):
+  File "/home/bogdan/Рабочий стол/PythonNosinovskiy/mod5/venv/lib/python3.10/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/bogdan/Рабочий стол/PythonNosinovskiy/mod5/venv/lib/python3.10/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/bogdan/Рабочий стол/PythonNosinovskiy/mod6/task1/task1.py", line 19, in divide
+    return f"a / b = {a / b:.2f}"
+ZeroDivisionError: division by zero
+18:28:15: INFO - 127.0.0.1 - - [26/Mar/2023 18:28:15] "[31m[1mPOST /divide/ HTTP/1.1[0m" 400 -
+18:35:26: INFO -  * Detected change in '/home/bogdan/Рабочий стол/PythonNosinovskiy/mod6/task2/task2.py', reloading
+18:35:26: INFO -  * Restarting with stat
+18:35:26: INFO - Started
+18:35:26: WARNING -  * Debugger is active!
+18:35:26: INFO -  * Debugger PIN: 119-372-571
+18:36:16: INFO -  * Detected change in '/home/bogdan/Рабочий стол/PythonNosinovskiy/mod6/task2/task2.py', reloading
+18:36:16: INFO -  * Restarting with stat
+18:36:16: INFO - Started
+18:36:16: WARNING -  * Debugger is active!
+18:36:16: INFO -  * Debugger PIN: 119-372-571

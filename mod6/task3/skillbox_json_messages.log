@@ -1,0 +1,13 @@
+{"time": "18:17:25", "level": "INFO", "message": "\u0421\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u0435"}
+{"time": "18:17:25", "level": "INFO", "message": "\u0421\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u0435"}
+{"time": "18:18:05", "level": "INFO", "message": "\u0421\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u0435"}
+{"time": "18:18:06", "level": "INFO", "message": "\u0421\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u0435"}
+{"time": "18:18:14", "level": "ERROR", "message": "We are unable\" to divide by zero!"}
+Traceback (most recent call last):
+  File "/home/bogdan/Рабочий стол/PythonNosinovskiy/mod5/venv/lib/python3.10/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/bogdan/Рабочий стол/PythonNosinovskiy/mod5/venv/lib/python3.10/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/bogdan/Рабочий стол/PythonNosinovskiy/mod6/task3/task3.py", line 27, in divide
+    return f"a / b = {a / b:.2f}"
+ZeroDivisionError: division by zero
