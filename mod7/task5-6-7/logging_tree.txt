@@ -1,0 +1,15 @@
+<--""
+   Level WARNING
+   |
+   o<--"logger"
+       Level INFO
+       Handler TimedRotatingFile '/home/bogdan/Рабочий стол/PythonNosinovskiy/mod7/task5-6-7/utils.log' when='H' interval=36000 backupCount=1
+         Level INFO
+         Filter <logging_config.IsASCII object at 0x7ffa81ab1f30>
+         Formatter fmt='%(levelname)s | %(name)s | %(asctime)s | %(lineno)d | %(message)s' datefmt=None
+       |
+       o<--"logger.app"
+       |   Level NOTSET so inherits level INFO
+       |
+       o<--"logger.calculate"
+           Level NOTSET so inherits level INFO
