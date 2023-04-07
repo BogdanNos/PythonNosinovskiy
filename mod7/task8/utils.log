@@ -1,0 +1,15 @@
+ERROR | logger.app | 2023-04-07 20:58:43,539 | 29 | Enter the correct operation
+ERROR | logger.app | 2023-04-07 21:03:27,354 | 29 | Enter the correct operation
+DEBUG | logger.calculate | 2023-04-07 21:11:35,453 | 19 | Начало работы программы умножение 5*2
+DEBUG | logger.calculate | 2023-04-07 21:11:35,510 | 21 | Результат умножения: 5*2 = 10
+ERROR | logger.app | 2023-04-07 21:15:30,241 | 22 | Enter the correct operation
+DEBUG | logger.calculate | 2023-04-07 21:17:34,462 | 11 | Начало работы программы плюс 5+2
+DEBUG | logger.calculate | 2023-04-07 21:17:34,522 | 13 | Результат плюса: 5+2 = 7
+DEBUG | logger.calculate | 2023-04-07 21:22:48,582 | 19 | Начало работы программы умножение 5*2
+DEBUG | logger.calculate | 2023-04-07 21:22:48,629 | 21 | Результат умножения: 5*2 = 10
+DEBUG | logger.calculate | 2023-04-07 21:28:59,263 | 11 | Начало работы программы плюс 5+2
+DEBUG | logger.calculate | 2023-04-07 21:28:59,324 | 13 | Результат плюса: 5+2 = 7
+DEBUG | logger.calculate | 2023-04-07 21:30:12,076 | 19 | Начало работы программы умножение 5*2
+DEBUG | logger.calculate | 2023-04-07 21:30:12,137 | 21 | Результат умножения: 5*2 = 10
+DEBUG | logger.calculate | 2023-04-07 21:30:48,127 | 11 | Начало работы программы плюс 5+2
+DEBUG | logger.calculate | 2023-04-07 21:30:48,180 | 13 | Результат плюса: 5+2 = 7
