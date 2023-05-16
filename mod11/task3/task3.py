@@ -72,6 +72,8 @@ def main():
         seller.start()
         sellers.append(seller)
 
+    sellers.append(director)
+
     for seller in sellers:
         seller.join()
 
